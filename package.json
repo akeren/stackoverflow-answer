@@ -1,0 +1,25 @@
+{
+	"name": "istory",
+	"version": "1.0.0",
+	"description": "A platform to share public and private life stories",
+	"main": "src/server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node NODE_ENV=production src/server.js",
+		"dev": "nodemon src/server.js"
+	},
+	"keywords": [
+		"Story",
+		"Private",
+		"Public",
+		"Life"
+	],
+	"author": "Kater Akeren",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"mongoose": "^5.10.0",
+		"morgan": "^1.10.0"
+	}
+}
